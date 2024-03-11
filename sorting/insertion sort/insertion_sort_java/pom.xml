@@ -4,7 +4,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.speers.carter</groupId>
+  <groupId>com.speers.carter.dsa</groupId>
   <artifactId>insertion_sort_java</artifactId>
   <version>1.0-SNAPSHOT</version>
 
