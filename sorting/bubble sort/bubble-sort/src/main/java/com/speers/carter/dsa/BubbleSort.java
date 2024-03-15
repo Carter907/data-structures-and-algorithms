@@ -4,7 +4,7 @@ public class BubbleSort {
 
     public static void sort(int[] data) {
 
-        boolean noComparison = false;
+        boolean noComparison;
         for (int i = 0; i < data.length; i++) {
             noComparison = true;
             for (int j = 0; j < data.length-1; j++) {
