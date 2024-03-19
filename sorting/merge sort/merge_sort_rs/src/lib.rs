@@ -1,5 +1,16 @@
-fn merge_sort() {
+fn merge_sort(data: &mut [i64]) {
+    if data.len() == 1 {
+        return;
+    }
 
+    // sort first half
+    let data_vec = Vec::from(data);
+
+    data.copy_from_slice(&data[0..data.len()])
+
+    // sort second half
+
+    // merge sorted halves using merge fn
 }
 
 fn merge(left: &[i64], right: &[i64], temp: &mut [i64]) {
@@ -31,10 +42,11 @@ fn merge(left: &[i64], right: &[i64], temp: &mut [i64]) {
 #[cfg(test)]
 mod test {
     use crate::merge;
+
     #[test]
     fn test_merging() {
-        let mut left = [1,6,2,3];
-        let mut right = [3,6,1,2];
+        let mut left = [1, 6, 2, 3];
+        let mut right = [3, 6, 1, 2];
         left.sort();
         right.sort();
         let mut temp: [i64; 8] = [0; 8];
