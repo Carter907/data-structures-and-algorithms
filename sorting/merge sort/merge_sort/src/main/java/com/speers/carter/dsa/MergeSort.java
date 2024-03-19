@@ -4,17 +4,21 @@ import java.util.Arrays;
 
 public class MergeSort {
 
-    public static int[] mergeSort(int[] data) {
-        int[] data1 = new int[data.length / 2];
-        int[] data2 = new int[data.length - data1.length];
-        System.arraycopy(data, 0, data1, 0, data1.length);
-        System.arraycopy(data, data.length - data2.length, data2, 0, data2.length);
-
-
-        if (data.length < 1) {
-            return data;
+    public static void mergeSort(int[] data) {
+        if (data.length <= 1) {
+            return;
         }
-        return new int[]{};
+
+        int[] data1 = new int[data.length / 2];
+        System.arraycopy(data, 0, data1, 0, data1.length);
+        mergeSort(data1);
+
+        int[] data2 = new int[data.length - data.length / 2];
+        System.arraycopy(data, data.length - data2.length, data2, 0, data2.length);
+        mergeSort(data2);
+
+
+        merge(data1, data2, data);
     }
 
     public static int[] merge(int[] left, int[] right, int[] temp) {
