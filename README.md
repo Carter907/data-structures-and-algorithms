@@ -52,10 +52,10 @@
       <td>❌</td>
     </tr>
     <tr>
-      <td>Insertion Sort</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
+      <td>Heap Sort</td>
+      <td>❌</td>
+      <td>❌</td>
+      <td>❌</td>
       <td>❌</td>
     </tr>
   </tbody>
