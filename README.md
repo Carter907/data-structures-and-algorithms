@@ -33,7 +33,7 @@
     <tr>
       <td>Bubble Sort</td>
       <td>✅</td>
-      <td>✅</td>
+      <td>❌</td>
       <td>❌</td>
       <td>❌</td>
     </tr>
