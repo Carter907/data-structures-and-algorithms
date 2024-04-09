@@ -1,0 +1,17 @@
+{
+  "name": "quick_sort_ts",
+  "version": "1.0.0",
+  "description": "quick sort implemention in typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "algorithms"
+  ],
+  "author": "Carter S",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.4.4"
+  }
+}
