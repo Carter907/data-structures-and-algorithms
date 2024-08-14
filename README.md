@@ -27,13 +27,16 @@
       <td>Insertion Sort</td>
       <td>✅</td>
       <td>✅</td>
+      <td>❌</td>
       <td>✅</td>
       <td>❌</td>
+      
     </tr>
     <!-- Add more rows here if needed -->
     <tr>
       <td>Bubble Sort</td>
       <td>✅</td>
+      <td>❌</td>
       <td>❌</td>
       <td>❌</td>
       <td>❌</td>
@@ -44,6 +47,7 @@
       <td>✅</td>
       <td>❌</td>
       <td>❌</td>
+      <td>❌</td>
     </tr>
     <tr>
       <td>Quick Sort</td>
@@ -51,9 +55,11 @@
       <td>❌</td>
       <td>❌</td>
       <td>❌</td>
+      <td>❌</td>
     </tr>
     <tr>
       <td>Heap Sort</td>
+      <td>❌</td>
       <td>❌</td>
       <td>❌</td>
       <td>❌</td>
@@ -84,10 +90,12 @@
       <td>❌</td>
       <td>❌</td>
       <td>❌</td>
+      <td>❌</td>
     </tr>
     <!-- Add more rows here if needed -->
     <tr>
       <td>Stack</td>
+      <td>❌</td>
       <td>❌</td>
       <td>❌</td>
       <td>❌</td>
@@ -99,9 +107,11 @@
       <td>❌</td>
       <td>❌</td>
       <td>❌</td>
+      <td>❌</td>
     </tr>
     <tr>
       <td>Graph</td>
+      <td>❌</td>
       <td>❌</td>
       <td>❌</td>
       <td>❌</td>
@@ -113,9 +123,11 @@
       <td>❌</td>
       <td>❌</td>
       <td>❌</td>
+      <td>❌</td>
     </tr>
     <tr>
       <td>Graph</td>
+      <td>❌</td>
       <td>❌</td>
       <td>❌</td>
       <td>❌</td>
