@@ -60,3 +60,65 @@
     </tr>
   </tbody>
 </table>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="1">Algorithm</th>
+      <th colspan="4">Implementing Language</th>
+    </tr>
+    <tr>
+      <th>Sorting</th>
+      <th>Java</th>
+      <th>Rust</th>
+      <th>Typescript</th>
+      <th>Python</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Linked List</td>
+      <td>❌</td>
+      <td>❌</td>
+      <td>❌</td>
+      <td>❌</td>
+    </tr>
+    <!-- Add more rows here if needed -->
+    <tr>
+      <td>Stack</td>
+      <td>❌</td>
+      <td>❌</td>
+      <td>❌</td>
+      <td>❌</td>
+    </tr>
+    <tr>
+      <td>Queue</td>
+      <td>❌</td>
+      <td>❌</td>
+      <td>❌</td>
+      <td>❌</td>
+    </tr>
+    <tr>
+      <td>Graph</td>
+      <td>❌</td>
+      <td>❌</td>
+      <td>❌</td>
+      <td>❌</td>
+    </tr>
+    <tr>
+      <td>Tree</td>
+      <td>❌</td>
+      <td>❌</td>
+      <td>❌</td>
+      <td>❌</td>
+    </tr>
+    <tr>
+      <td>Graph</td>
+      <td>❌</td>
+      <td>❌</td>
+      <td>❌</td>
+      <td>❌</td>
+    </tr>
+  </tbody>
+</table>
+
