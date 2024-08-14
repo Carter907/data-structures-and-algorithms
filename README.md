@@ -11,7 +11,7 @@
   <thead>
     <tr>
       <th colspan="1">Algorithm</th>
-      <th colspan="4">Implementing Language</th>
+      <th colspan="5">Implementing Language</th>
     </tr>
     <tr>
       <th>Sorting</th>
@@ -66,7 +66,7 @@
   <thead>
     <tr>
       <th colspan="1">Data Structure</th>
-      <th colspan="4">Implementing Language</th>
+      <th colspan="5">Implementing Language</th>
     </tr>
     <tr>
       <th>Sorting</th>
