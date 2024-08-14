@@ -109,7 +109,7 @@
       <td>❌</td>
     </tr>
     <tr>
-      <td>Graph</td>
+      <td>Set</td>
       <td>❌</td>
       <td>❌</td>
       <td>❌</td>
