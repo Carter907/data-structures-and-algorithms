@@ -17,6 +17,7 @@
       <th>Sorting</th>
       <th>Java</th>
       <th>Rust</th>
+      <th>Golang</th>
       <th>Typescript</th>
       <th>Python</th>
     </tr>
@@ -71,6 +72,7 @@
       <th>Sorting</th>
       <th>Java</th>
       <th>Rust</th>
+      <th>Golang</th>
       <th>Typescript</th>
       <th>Python</th>
     </tr>
