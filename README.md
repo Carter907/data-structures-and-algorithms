@@ -66,7 +66,7 @@
     </tr>
   </tbody>
 </table>
-
+### Data Structure
 <table>
   <thead>
     <tr>
@@ -74,7 +74,7 @@
       <th colspan="5">Implementing Language</th>
     </tr>
     <tr>
-      <th>Sorting</th>
+      <th>Data Structure</th>
       <th>Java</th>
       <th>Rust</th>
       <th>Golang</th>
