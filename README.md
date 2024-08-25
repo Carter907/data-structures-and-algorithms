@@ -67,6 +67,7 @@
   </tbody>
 </table>
 ### Data Structure
+
 <table>
   <thead>
     <tr>
