@@ -6,6 +6,7 @@
 - learn more about sortings, collections, efficiency and design. 
 
 ### Progress
+#### Sorting
 
 <table>
   <thead>
@@ -67,7 +68,7 @@
   </tbody>
 </table>
 
-### Data Structure
+#### Data Structure
 
 <table>
   <thead>
