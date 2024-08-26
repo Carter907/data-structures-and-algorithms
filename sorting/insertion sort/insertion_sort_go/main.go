@@ -12,6 +12,8 @@ func insert_sort(data []int) {
 			if data[ele] < data[j] {
 				data[ele], data[j] = data[j], data[ele]
 				ele = j
+			} else {
+				break
 			}
 		}
 	}
