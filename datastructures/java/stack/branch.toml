@@ -1,0 +1,11 @@
+[project]
+name = "stack"
+mainClass = "com.carter.speers.Main"
+[build]
+srcDir = "src"
+outDir = "build"
+[archive]
+jarName = "stack"
+[modules]
+mainModule = "com.carter.speers"
+modulePath = ["build", "libs"]
