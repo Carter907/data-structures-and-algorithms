@@ -1,6 +1,6 @@
-build: main.c linked_list.c
+build: main.c queue.c
 	mkdir build
-	gcc -g -Wall -Werror main.c linked_list.c -lm
+	gcc -g -Wall -Werror main.c queue.c -lm
 	mv a.out ./build
 
 debug: clean build
