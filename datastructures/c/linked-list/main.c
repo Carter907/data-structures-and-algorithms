@@ -1,6 +1,14 @@
 #include "linked_list.h"
 #include <stdlib.h>
 
+void rotate(ListNode *node) {
+  ListNode *curr, *prev;
+
+  for (curr = node, prev = NULL; curr->next != NULL;
+       prev = curr, curr = curr->next) {
+  }
+}
+
 int main() {
   ListNode *list = malloc(sizeof(ListNode));
 
