@@ -1,11 +1,12 @@
-#include <iostream>
-#include <vector>
+#include "stack.h"
 #include <cstring>
+#include <iostream>
 
 using namespace std;
 
 int main() {
-  cout << "Hello Algos" << endl;
+
+  Stack *stk = new Stack(5);
 
   return 0;
 }
