@@ -1,18 +1,18 @@
 #ifndef STACK_H
 #define STACK_H
-
-#define DEFAULT_CAPACITY 10
+#include "node.h"
 
 class Stack {
 
-  int length;
-  int capacity = 10;
-  int *buffer;
+  int _size;
+  Node *_top;
 
 public:
-  Stack(int capacity);
-  int get_capacity();
-  int *get_buffer();
+  int top();
+  void remove_top();
+  int pop();
+  void push(int value);
+  int size();
 };
 
 #endif
