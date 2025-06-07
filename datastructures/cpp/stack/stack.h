@@ -12,6 +12,8 @@ public:
   void remove_top();
   int pop();
   void push(int value);
+  void clear();
+  bool is_empty;
   int size();
 };
 

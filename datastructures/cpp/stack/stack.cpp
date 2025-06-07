@@ -1,10 +1,10 @@
 #include "stack.h"
 #include "node.h"
+#include <limits.h>
 
 void Stack::push(int value) {
   Node *new_top = new Node(value);
   new_top->next = this->_top;
-  Node *tmp = this->_top;
   this->_top = new_top;
   _size++;
 }
@@ -22,6 +22,10 @@ void Stack::remove_top() {
 }
 
 int Stack::pop() {
+
+  if (_size == 0) {
+    return INT_MIN;
+  }
 
   int top_val = top();
 
