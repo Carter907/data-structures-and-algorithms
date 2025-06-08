@@ -1,7 +1,10 @@
-#include <vector>
 
 #ifndef BST_H
 #define BST_H
+
+#include <iostream>
+#include <random>
+#include <vector>
 
 struct TreeNode {
 
@@ -22,11 +25,13 @@ public:
     };
   }
 
-  void insert();
-  int remove();
-  bool empty();
-  std::vector<int> breadthFirstSearch();
-  std::vector<int> depthFirstSearch();
+  bool insert(int el);
+  bool remove(int el);
+  bool empty() const;
+  std::vector<int> breadthFirstSearch() const;
+  std::vector<int> depthFirstSearch() const;
 };
+
+std::ostream &operator<<(std::ostream &stream, const BST &bst);
 
 #endif
