@@ -1,17 +1,35 @@
 
 #include "bst.h"
+#include <queue>
+#include <vector>
 
-int *BST::search(const int &el) {
-  TreeNode *ptr = root;
+void BST::insert() {}
+int BST::remove() { return 0; }
+bool BST::empty() { return true; }
+std::vector<int> BST::breadthFirstSearch() {
+  if (!root)
+    return {};
 
-  while (ptr != nullptr) {
-    if (el == ptr->value)
-      return &ptr->value;
-    else if (el < ptr->value)
-      ptr = ptr->left;
-    else
-      ptr = ptr->right;
+  std::queue<TreeNode *> q;
+  std::vector<int> res;
+
+  q.push(root);
+
+  while (!q.empty()) {
+    for (int i = 0; i < q.size(); i++) {
+
+      TreeNode *n = q.front();
+      q.pop();
+
+      res.push_back(n->value);
+
+      if (n->left)
+        q.push(n->left);
+      if (n->right)
+        q.push(n->right);
+    }
   }
 
-  return nullptr;
+  return res;
 }
+std::vector<int> BST::depthFirstSearch() {}

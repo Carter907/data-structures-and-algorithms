@@ -1,4 +1,8 @@
 #include "bst.h"
-using namespace std;
 
-int main() { return 0; }
+int main() {
+
+  BST *bst = new BST(5);
+
+  return 0;
+}
