@@ -14,5 +14,8 @@ int main() {
 
   std::cout << *bst << std::endl;
 
+  std::cout << bst->contains(1) << std::endl;
+  std::cout << bst->contains(26) << std::endl;
+
   return 0;
 }

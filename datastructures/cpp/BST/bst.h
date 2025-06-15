@@ -26,6 +26,7 @@ public:
   }
 
   bool insert(int el);
+  bool contains(int el);
   bool remove(int el);
   bool empty() const;
   std::vector<int> breadthFirstSearch() const;

@@ -1,11 +1,12 @@
 
 #include "bst.h"
 #include <queue>
+#include <stack>
 #include <vector>
 
 std::ostream &operator<<(std::ostream &stream, const BST &bst) {
 
-  std::vector<int> contents = bst.breadthFirstSearch();
+  std::vector<int> contents = bst.depthFirstSearch();
 
   stream << "(( ";
 
@@ -17,9 +18,23 @@ std::ostream &operator<<(std::ostream &stream, const BST &bst) {
 
   return stream;
 }
+bool BST::contains(int el) {
+
+  TreeNode *curr = root;
+  while (curr) {
+    if (el < curr->value) {
+      curr = curr->left;
+    } else if (el > curr->value) {
+      curr = curr->right;
+    } else {
+      return true;
+    }
+  }
+
+  return false;
+}
 
 bool BST::insert(int el) {
-
   if (root == nullptr) {
 
     root = new TreeNode{
@@ -84,4 +99,27 @@ std::vector<int> BST::breadthFirstSearch() const {
 
   return res;
 }
-// std::vector<int> BST::depthFirstSearch() {}
+
+std::vector<int> BST::depthFirstSearch() const {
+
+  if (!root)
+    return {};
+
+  std::stack<TreeNode *> stk;
+  std::stack<TreeNode *> stk2;
+  std::vector<int> res;
+
+  stk.push(root);
+
+  while (!stk.empty()) {
+    TreeNode *n = stk.top();
+    if (!n->left && !n->right) {
+    }
+
+    stk2.push(n->right);
+    stk2.push(n->left);
+
+    std::cout << n->value << std::endl;
+  }
+  return res;
+}
