@@ -1,5 +1,6 @@
 #include "graph.h"
 #include <iostream>
+#include <utility>
 
 void Graph::print() {
 
@@ -12,7 +13,13 @@ void Graph::print() {
   }
 }
 
-void Graph::addVertex(int v) { this->adj_list[v] = {}; }
+bool Graph::addVertex(int v) {
+  if (this->adj_list.find(v) != adj_list.end())
+    return false;
+
+  this->adj_list.insert(std::make_pair(v, std::unordered_set<int>()));
+  return true;
+}
 
 bool Graph::addEdge(int v1, int v2) {
 

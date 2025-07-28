@@ -15,7 +15,7 @@ class Graph {
 public:
   Graph() { this->adj_list = {}; }
 
-  void addVertex(int);
+  bool addVertex(int);
   bool addEdge(int, int);
   bool removeEdge(int, int);
   bool removeVertex(int);
