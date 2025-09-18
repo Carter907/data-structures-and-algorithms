@@ -14,7 +14,6 @@ struct TreeNode {
 };
 
 class BST {
-
   TreeNode *root;
 
 public:
